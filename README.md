@@ -30,7 +30,7 @@ Check out that tree with the DOM element prettyprint function:
     >>> tree.pp()
      <html>
        <body>
-	 <p id="first-line" class="line">
+         <p id="first-line" class="line">
        	   Thunderbolts and lightning!
        	 </p>
        	 <p id="second-line" class="line">
