@@ -21,7 +21,7 @@ Give it some markup to parse:
 
     >>> p.set_html(html)
 
-Get a DOM tree out of that markup:
+Get a DOM tree out of that markup. `Parser.parse()` returns the root node of the tree. 
 
     >>> tree = p.parse()
 
@@ -39,7 +39,7 @@ Check out that tree with the DOM element prettyprint function:
        </body>
      </html>
 
-Or poke at an individual node. Parser.parse() returns the root node.
+Or poke at an individual node.
 
     >>> body_node = tree.get_children()[0]
     >>> p2_node = body_node.get_children()[1]
