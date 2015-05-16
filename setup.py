@@ -4,7 +4,7 @@ except ImportError:
     from distutils.core import setup
 
 config = {
-    'name': 'Bhreus'
+    'name': 'Bhreus',
     'description': 'A tiny browser engine',
     'author': 'Cooper Stimson',
     'url': 'github.com/6c1/bhreus',
